@@ -1,0 +1,260 @@
+body
+{
+    font-family: "Domaine Display Condensed Medium Regular", "PP Editorial New",;
+}
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #2f2f2f;
+    overflow-x: hidden;
+}
+
+#page1
+{
+   height: 150vh;
+    width: 100vw;
+    background-color: #C2BAB0;
+   position: relative;
+   overflow: hidden;
+}
+#nav
+{
+   height: 80px;
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-bottom: 1px solid black;
+   
+}
+#nav img{
+    height: 30px;
+    width: 30%;
+}
+#nav h5
+{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i
+{
+    width: 30%;
+    text-align: right;
+}
+#elems
+{
+    
+    height: 400px;
+    display: flex;
+    
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+   
+}
+#elem1
+{
+   width: 33%;
+   height: 100%;
+   
+    
+   
+}
+#elem2
+{
+    width: 33%;
+   height: 100%;
+  
+   text-align: center;
+   justify-content: center;
+   padding: 20px 60px;
+   border-right: 1px solid #3d3d3d;
+   border-left: 1px solid #3d3d3d;
+   
+}
+#elem3
+{
+    width: 33%;
+   height: 100%;
+    
+    
+    
+}
+#elem1 #image-div
+{
+    
+    overflow: hidden;
+}
+#elem3 #image-div
+{
+   
+    overflow: hidden;
+}
+#image-div:hover img
+{
+    scale: 1.2;
+}
+#image-div img{
+    
+    height: 160px;
+    width: 100%;
+   transition: all ease 0.5s;
+   border: 1px solid black;
+  
+}
+#elem1 h4
+{
+    font-size: 24px;
+    margin-top: 20px;
+   margin-bottom: 10px;
+    font-family: Domaine Display Condensed Medium Regular;
+}
+#elem1 h4 span
+{
+   background-color: #BB3D12;
+   color: #C4B7AD;
+   font-weight: 100;
+   font-size: 18px;
+   padding: 4px;
+   border-radius: 5px;
+   margin-left: 10px;
+}
+#elem1 p
+{
+    font-size: 22px;
+    font-family: Domaine Display Condensed Medium Regular;
+    font-weight: 100;
+    color: #656565;
+}
+
+#elem3 h4
+{
+    font-size: 24px;
+    margin-top: 20px;
+   margin-bottom: 10px;
+    font-family: Domaine Display Condensed Medium Regular;
+}
+#elem3 h4 span
+{
+   background-color: #BB3D12;
+   color: #C4B7AD;
+   font-weight: 100;
+   font-size: 18px;
+   padding: 4px;
+   border-radius: 5px;
+   margin-left: 10px;
+}
+#elem3 p
+{
+    font-size: 21px;
+    font-family: Domaine Display Condensed Medium Regular;
+    font-weight: 100;
+    color: #656565;
+}
+
+#elem2 h2
+{
+   font-family: Domaine Display Condensed Medium Regular;
+   font-size: 75px;
+   font-weight: 100;
+   margin-bottom: 40px;
+}
+#elem2 h3
+{
+   font-family: PP Editorial New;
+   font-size: 36px;
+   font-weight: 100;
+   color: #2f2f2f;
+}
+#page1 h1 {
+    font-size: 500px;
+    font-family: Domaine Display Condensed Medium Regular; /* Ensure correct font family declaration */
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    background-color: #1C1C19;
+    color: #C3BCB2;
+    line-height: 1; /* Adjust line height to better fit the text */
+    margin-left: 2%;
+    margin-right: 2%; /* Center the h1 horizontally */
+    padding-top: 20px ; /* Add padding to the top and bottom for spacing */
+    padding-bottom: 50px;
+}
+
+#page2 {
+    padding: 30px 0px;
+    width: 100%;
+    background-color: #C2BAB0;
+    min-height: 100px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#page2::-webkit-scrollbar {
+    display: none;
+}
+
+#page2 h1 {
+    font-size: 80px;
+    font-family: Domaine Display Condensed Medium Regular;
+    font-weight: 100;
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#page2 h1 span {
+    font-family:Domaine Display Condensed Medium Regular;
+    background-color: #1C1C1A;
+    color: #C1BAB0;
+    padding-bottom: 0px;
+    font-size: 80px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(calc(-100%));
+    }
+}
+
+#page2:hover h1 {
+    animation-play-state: paused;
+}
+a
+{
+   color: #C1BAB0; 
+}
+#page2 h2{
+    
+    margin-bottom: 20px;
+    font-family: PP Editorial New;
+    justify-content: center;
+    align-content: center;
+    margin-left: 2%;
+    font-size: 25px;
+    font-weight: 100;
+   
+}
